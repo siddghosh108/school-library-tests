@@ -51,7 +51,7 @@ describe Person do
   end
 end
 
-describe Person2 do
+describe Person do
   it 'does not correct the name' do
     # Tested the context when validating the name
     person_with_long_name = Person.new(30, 'alongnameiscorrected')
