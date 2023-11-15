@@ -51,17 +51,15 @@ describe Person do
   end
 end
 
-describe Person do
-  it 'does not correct the name' do
-    # Tested the context when validating the name
-    person_with_long_name = Person.new(30, 'alongnameiscorrected')
-    expect(person_with_long_name.correct_name).to eq('alongnameiscorrected')
-  end
+it 'does not correct the name' do
+  # Tested the context when validating the name
+  person_with_long_name = Person.new(30, 'alongnameiscorrected')
+  expect(person_with_long_name.correct_name).to eq('alongnameiscorrected')
+end
 
-  it 'can add a rental and return it' do
-    # Tested the context when adding a new rental so the add_rental method returns a rental and adds it to the book.
-    rental = double('Rental')
-    expect(person.add_rental(rental)).to eq([rental])
-    expect(person.rentals).to include(rental)
-  end
+it 'can add a rental and return it' do
+  # Tested the context when adding a new rental so the add_rental method returns a rental and adds it to the book.
+  rental = double('Rental')
+  expect(person.add_rental(rental)).to eq([rental])
+  expect(person.rentals).to include(rental)
 end
