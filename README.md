@@ -16,6 +16,7 @@
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
+    - [Run tests](#Run-tests)
   - [👥 Author ](#-author-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -42,7 +43,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Create classes**
+- **Store books, students and teacher in a local database**
+- **retrieve the needed information from the database**
+- **assign rentals to sepecifc persons**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -52,7 +55,7 @@
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+### Prerequisites <a name="prerequisites"></a>
 
 In order to run this project you need:
 
@@ -61,7 +64,7 @@ In order to run this project you need:
     bundler
 ```
 
-### Setup
+### Setup <a name="setup"></a>
 
 Clone this repository to your desired folder:
 
@@ -69,7 +72,7 @@ Clone this repository to your desired folder:
   git clone https://github.com/siddghosh108/school-library.git
 ```
 
-### Install
+### Install <a name="install"></a>
 
 Install this project with:
 
@@ -79,6 +82,14 @@ Install this project with:
 ```
 
 it will install the required gemfile for running the project
+
+### Run test <a name="Run-tests"></a>
+
+Execute all test on the project with he following command:
+
+```bash
+bundle exec rspec spec
+```
 
 <!-- ### Usage -->
 
@@ -92,15 +103,17 @@ it will install the required gemfile for running the project
 
 - GitHub: [@siddghosh108](https://github.com/siddghosh108)
 
+👤 Goldinium
+
+- GitHub: [@Goldinium](https://github.com/Goldinium)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Create database**
-- **Add basic UI**
-- **Unit tests**
+- **We are thinking about it..**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
