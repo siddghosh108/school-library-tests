@@ -148,9 +148,10 @@ class App
     teachers = []
 
     people_data.each do |person|
-      if person['type'] == 'student'
+      case person['type']
+      when 'student'
         students.push(load_student_data(person))
-      elsif person['type'] == 'teacher'
+      when 'teacher'
         teachers.push(load_teacher_data(person))
       end
     end
