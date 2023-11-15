@@ -51,6 +51,8 @@ describe Person do
   end
 end
 
+let(:person) { Person.new(25, 'John', parent_permission: false) }
+
 it 'does not correct the name' do
   # Tested the context when validating the name
   person_with_long_name = Person.new(30, 'alongnameiscorrected')
