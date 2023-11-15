@@ -49,7 +49,9 @@ describe Person do
     # Tested the context when validating the name
     expect(person.correct_name).to eq('John')
   end
+end
 
+describe Person2 do
   it 'does not correct the name' do
     # Tested the context when validating the name
     person_with_long_name = Person.new(30, 'alongnameiscorrected')
